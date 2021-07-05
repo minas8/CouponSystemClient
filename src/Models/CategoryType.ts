@@ -1,0 +1,7 @@
+export enum CategoryType {
+    FOOD = "FOOD",
+    ELECTRICITY = "ELECTRICITY",
+    RESTAURANT = "RESTAURANT",
+    VACATION = "VACATION",
+    CLOTHING = "CLOTHING"
+}

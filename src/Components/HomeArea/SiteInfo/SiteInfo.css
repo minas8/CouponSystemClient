@@ -1,0 +1,19 @@
+.SiteInfo {
+  margin: 0;
+  padding: 5px 15px;
+  text-align: left;
+}
+.SiteInfo > p > span {
+  color: #ff4c2c;
+}
+.SiteInfo > h4 > span {
+  text-transform: uppercase;
+}
+.SiteInfo > h2 {
+  margin-top: 0;
+  padding-top: 0;
+}
+.SiteInfo > h4:first-of-type {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}

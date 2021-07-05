@@ -1,0 +1,24 @@
+.AddCustomer {
+  background-color: #f7f7f7;
+  padding: 15px;
+  height: 100%;
+}
+.AddCustomer > h4 {
+  padding: 5px 0 20px;
+}
+.AddCustomer .buttons {
+  padding: 0 5px;
+}
+.AddCustomer .send,
+.AddCustomer .reset {
+  background-color: #dbdbdb;
+  width: calc(250px / 2);
+}
+.AddCustomer .send:hover,
+.AddCustomer .reset:hover {
+  background-color: #ff9c8b;
+}
+.AddCustomer .mui-input {
+  width: 250px;
+  background-color: #ffffff;
+}

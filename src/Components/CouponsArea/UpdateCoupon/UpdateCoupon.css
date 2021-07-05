@@ -1,0 +1,43 @@
+.UpdateCoupon {
+  background-color: #f7f7f7;
+  padding: 15px;
+  height: 100%;
+}
+.UpdateCoupon > h4 {
+  padding: 5px 0 20px;
+}
+.UpdateCoupon .grid {
+  margin: 0 0.5em;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  grid-gap: 0.8em;
+}
+.UpdateCoupon .send,
+.UpdateCoupon .reset {
+  background-color: #dbdbdb;
+  max-width: calc(250px / 2);
+}
+.UpdateCoupon .send:hover,
+.UpdateCoupon .reset:hover {
+  background-color: #ff9c8b;
+}
+.UpdateCoupon .mui-input {
+  max-width: 250px;
+  background-color: #ffffff;
+}
+.UpdateCoupon .numbers {
+  display: flex;
+  vertical-align: baseline;
+  max-width: 250px;
+}
+.UpdateCoupon .texts,
+.UpdateCoupon .dates,
+.UpdateCoupon .files {
+  display: flex;
+  flex-direction: column;
+}
+.UpdateCoupon .file-input {
+  position: absolute;
+  font-size: medium;
+  padding: 16px 10px 14px;
+}

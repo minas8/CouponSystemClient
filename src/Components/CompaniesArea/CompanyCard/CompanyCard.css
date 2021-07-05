@@ -1,0 +1,33 @@
+.CompanyCard {
+  font-size: smaller;
+  background-color: #f7f7f7;
+  padding: 5px;
+  text-align: center;
+  box-shadow: 0 0 10px #d8d8d8;
+}
+.CompanyCard:hover {
+  background-color: #ffd1c8;
+}
+.CompanyCard > a > h4 {
+  color: #525252;
+  margin: 0;
+  text-transform: capitalize;
+}
+.CompanyCard > a:hover > h4 {
+  color: #101010;
+}
+.CompanyCard > a > span {
+  color: #525252;
+}
+.CompanyCard .buttons {
+  position: relative;
+  top: 10px;
+  padding: 5px 0;
+  border-top: 1px dashed #525252;
+}
+.CompanyCard .buttons > a {
+  color: #525252;
+}
+.CompanyCard .buttons > a:hover {
+  color: #101010;
+}

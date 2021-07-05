@@ -1,0 +1,15 @@
+.Layout {
+  height: 100vh;
+  display: grid;
+  grid-gap: 5px;
+  grid-template-rows: 15% auto 5%;
+  grid-template-columns: repeat(3, 1fr) 1fr;
+}
+.Layout > header,
+.Layout > footer {
+  grid-column: span 4;
+}
+.Layout > main {
+  margin: 0 2px;
+  grid-column: 2 / 5;
+}

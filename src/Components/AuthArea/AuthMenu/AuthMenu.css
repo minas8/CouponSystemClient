@@ -1,0 +1,14 @@
+.AuthMenu {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  font-size: smaller;
+}
+.AuthMenu > a,
+.AuthMenu > a:visited,
+.AuthMenu > a:active {
+  color: #202020;
+}
+.AuthMenu > a:hover {
+  color: #424242;
+}

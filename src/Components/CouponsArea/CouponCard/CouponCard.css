@@ -1,0 +1,44 @@
+.CouponCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-size: smaller;
+  padding: 5px;
+  max-width: 345px;
+  text-align: center;
+  background-color: #f7f7f7;
+  box-shadow: 0 0 10px #bebebe;
+}
+.CouponCard:hover {
+  background-color: #e8f0fe;
+  box-shadow: 0 0 10px #888888;
+}
+.CouponCard > a > h4 {
+  color: #525252;
+  margin: 0;
+  text-transform: capitalize;
+  padding: 5px 0;
+}
+.CouponCard > a:hover > h4 {
+  color: #101010;
+}
+.CouponCard > a > span {
+  color: #525252;
+}
+.CouponCard .media {
+  height: 140px;
+}
+.CouponCard .buttons {
+  margin-top: 10px;
+  padding: 5px 0 0;
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  border-top: 1px dashed #525252;
+}
+.CouponCard .buttons > a {
+  color: #525252;
+}
+.CouponCard .buttons > a:hover {
+  color: #101010;
+}

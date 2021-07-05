@@ -1,0 +1,24 @@
+.UpdateCompany {
+  background-color: #f7f7f7;
+  padding: 15px;
+  height: 100%;
+}
+.UpdateCompany > h4 {
+  padding: 5px 0 20px;
+}
+.UpdateCompany .buttons {
+  padding: 0 5px;
+}
+.UpdateCompany .send,
+.UpdateCompany .reset {
+  background-color: #dbdbdb;
+  width: calc(250px / 2);
+}
+.UpdateCompany .send:hover,
+.UpdateCompany .reset:hover {
+  background-color: #ff9c8b;
+}
+.UpdateCompany .mui-input {
+  width: 250px;
+  background-color: #ffffff;
+}

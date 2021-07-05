@@ -1,0 +1,11 @@
+.AboutUs {
+  background-color: #f7f7f7;
+  padding: 15px 5px;
+  height: calc(80% - 15px);
+  text-align: center;
+}
+.AboutUs .info {
+  display: inline-block;
+  max-width: 75%;
+  text-align: left;
+}

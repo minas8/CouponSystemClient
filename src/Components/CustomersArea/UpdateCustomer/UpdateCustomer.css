@@ -1,0 +1,24 @@
+.UpdateCustomer {
+  background-color: #f7f7f7;
+  padding: 15px;
+  height: 100%;
+}
+.UpdateCustomer > h4 {
+  padding: 5px 0 20px;
+}
+.UpdateCustomer .buttons {
+  padding: 0 5px;
+}
+.UpdateCustomer .send,
+.UpdateCustomer .reset {
+  background-color: #dbdbdb;
+  width: calc(250px / 2);
+}
+.UpdateCustomer .send:hover,
+.UpdateCustomer .reset:hover {
+  background-color: #ff9c8b;
+}
+.UpdateCustomer .mui-input {
+  width: 250px;
+  background-color: #ffffff;
+}

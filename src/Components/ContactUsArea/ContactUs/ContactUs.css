@@ -1,0 +1,29 @@
+.ContactUs {
+  background-color: #f7f7f7;
+  padding: 15px;
+  height: 100%;
+}
+.ContactUs > h4 {
+  padding: 5px 0 20px;
+}
+.ContactUs .buttons {
+  padding: 0 5px;
+}
+.ContactUs .send,
+.ContactUs .cancel {
+  background-color: #dbdbdb;
+  width: calc(250px / 2);
+}
+.ContactUs .send:hover,
+.ContactUs .cancel:hover {
+  background-color: #ff9c8b;
+}
+.ContactUs .mui-input {
+  width: 250px;
+}
+.ContactUs .bgc-white {
+  background-color: #ffffff;
+}
+.ContactUs .MuiTypography-body1 {
+  font-size: smaller;
+}

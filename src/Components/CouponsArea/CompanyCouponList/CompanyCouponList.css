@@ -1,0 +1,27 @@
+.CompanyCouponList {
+  margin: 0;
+  margin-right: 5px;
+  padding: 5px 15px 15px;
+  text-align: left;
+}
+.CompanyCouponList > p {
+  padding: 5px 10px;
+  margin: 0;
+}
+.CompanyCouponList .coupon-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 200px);
+  grid-gap: 10px;
+}
+.CompanyCouponList > a {
+  position: relative;
+  top: -30px;
+  margin-left: calc(100% - 15px);
+  color: tomato;
+}
+.CompanyCouponList > a:hover {
+  color: #e04226;
+}
+.CompanyCouponList .mui-select {
+  max-width: 155px;
+}

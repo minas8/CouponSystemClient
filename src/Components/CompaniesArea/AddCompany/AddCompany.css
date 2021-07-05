@@ -1,0 +1,21 @@
+.AddCompany {
+  background-color: #f7f7f7;
+  padding: 15px;
+  height: 100%;
+}
+.AddCompany > h4 {
+  padding: 5px 0 20px;
+}
+.AddCompany .send,
+.AddCompany .reset {
+  background-color: #dbdbdb;
+  width: calc(250px / 2);
+}
+.AddCompany .send:hover,
+.AddCompany .reset:hover {
+  background-color: #ff9c8b;
+}
+.AddCompany .mui-input {
+  width: 250px;
+  background-color: #ffffff;
+}

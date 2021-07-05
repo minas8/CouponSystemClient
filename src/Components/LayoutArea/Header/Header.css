@@ -1,0 +1,23 @@
+.Header {
+  background-color: #ff9c8b;
+  border-bottom: 2px solid tomato;
+  margin: 0 0 3px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: calc(100% - 3px);
+}
+.Header > h1 {
+  margin: 0 25%;
+}
+.Header > h1 > span:first-child {
+  position: relative;
+  font-size: xxx-large;
+  top: 8px;
+  left: 20px;
+}
+.Header > h1 > span:last-of-type {
+  position: relative;
+  top: 7px;
+  left: -10px;
+}

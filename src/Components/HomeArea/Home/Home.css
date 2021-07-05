@@ -1,0 +1,6 @@
+.Home {
+  min-height: 10px;
+  margin-right: 5px;
+  background-color: #f7f7f7;
+  height: calc(100vh - 22vh);
+}

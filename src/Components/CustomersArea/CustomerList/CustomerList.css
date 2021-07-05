@@ -1,0 +1,24 @@
+.CustomerList {
+  margin: 0;
+  margin-right: 5px;
+  padding: 5px 15px 15px;
+  text-align: left;
+}
+.CustomerList > p {
+  padding: 5px 10px;
+  margin: 0;
+}
+.CustomerList .cus-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 200px);
+  grid-gap: 10px;
+}
+.CustomerList > a {
+  position: relative;
+  top: -30px;
+  margin-left: calc(100% - 15px);
+  color: tomato;
+}
+.CustomerList > a:hover {
+  color: #e04226;
+}

@@ -1,0 +1,42 @@
+.Menu {
+  min-height: 10px;
+  margin-left: 5px;
+  background-color: #ffd1c8;
+}
+.Menu > nav {
+  font-size: smaller;
+  padding: 10px 0;
+  display: flex;
+  flex-direction: column;
+}
+.Menu > nav > a {
+  padding: 10px;
+  color: #424242;
+  background-color: #efefef;
+  border-top: 2px solid #efefef;
+  border-bottom: 2px solid #dbdbdb;
+}
+.Menu > nav > a:first-of-type {
+  border-top: 2px solid #dbdbdb;
+}
+.Menu > nav > a:hover:not(.active) {
+  font-weight: bolder;
+  color: #1a1a1a;
+  background-color: #dbdbdb;
+  border-top: 2px solid white;
+  border-bottom: 2px solid #8d8d8d;
+}
+.Menu .active {
+  /* active is the exact class that NavLink uses */
+  color: #e04226;
+  font-weight: bold;
+  background-color: #ffede9;
+  border-top: 2px solid white;
+  border-bottom: 2px solid #e04226;
+}
+.Menu .active:first-of-type {
+  border-top: 2px solid white;
+}
+.Menu .hidden {
+  display: none;
+}

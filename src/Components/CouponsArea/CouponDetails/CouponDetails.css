@@ -1,0 +1,30 @@
+.CouponDetails h2,
+.CouponDetails p {
+  margin: 0;
+  padding: 5px;
+}
+.CouponDetails > .box {
+  display: flex;
+  margin: 0 10px 15px;
+  box-shadow: 0 0 10px #d8d8d8;
+}
+.CouponDetails > .box > * {
+  padding: 10px;
+  width: calc(50% - 5px);
+  text-align: left;
+}
+.CouponDetails .media {
+  height: 140px;
+}
+.CouponDetails .title {
+  font-weight: bold;
+  font-size: large;
+}
+.CouponDetails .bold-small {
+  font-weight: bold;
+  font-size: medium;
+}
+.CouponDetails img {
+  padding: 10px;
+  width: 100%;
+}
