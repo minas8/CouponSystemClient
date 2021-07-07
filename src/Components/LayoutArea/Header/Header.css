@@ -13,11 +13,11 @@
 .Header > h1 > span:first-child {
   position: relative;
   font-size: xxx-large;
-  top: 8px;
-  left: 20px;
+  top: 6.5pt;
+  left: 15pt;
 }
 .Header > h1 > span:last-of-type {
   position: relative;
-  top: 7px;
-  left: -10px;
+  top: 6pt;
+  left: -8pt;
 }
