@@ -7,4 +7,5 @@
   border-top: 2px solid tomato;
   height: calc(100% - 5px);
   margin: 3px 0 0;
+  padding: 15px 0;
 }
