@@ -10,7 +10,8 @@
 .Header > h1 {
   margin: 0 25%;
 }
-.Header > h1 > span:first-child {
+/* Logo by HTML + CSS */
+/* .Header > h1 > span:first-child {
   position: relative;
   font-size: xxx-large;
   top: 0.18em;
@@ -20,4 +21,4 @@
   position: relative;
   top: 6pt;
   left: -8pt;
-}
+} */
