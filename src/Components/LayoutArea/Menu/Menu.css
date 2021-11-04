@@ -9,6 +9,10 @@
   display: flex;
   flex-direction: column;
 }
+.Menu > nav > .divider {
+  height: 5px;
+  background-color: #ffd1c8;
+}
 .Menu > nav > a {
   padding: 10px;
   color: #424242;
@@ -36,7 +40,4 @@
 }
 .Menu .active:first-of-type {
   border-top: 2px solid white;
-}
-.Menu .hidden {
-  display: none;
 }

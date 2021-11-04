@@ -10,6 +10,12 @@
   grid-column: span 4;
 }
 .Layout > main {
-  margin: 0 2px;
-  grid-column: 2 / 5;
+  margin: 0 2px 0 6px;
+  grid-column: span 4;
+}
+@media (min-width: 500px) {
+  .Layout > main {
+    margin: 0 2px;
+    grid-column: 2 / 5;
+  }
 }

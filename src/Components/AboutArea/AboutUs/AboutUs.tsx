@@ -11,7 +11,7 @@ function AboutUs(): JSX.Element {
             <div className="info">
                 <Typography variant="body2">
                     My name is Mina Shtraicher.<br />
-                    You can find me here:
+                    You can find some information about my professional journey on Linkedin and see some of my projects on Github:
                 </Typography>
                 <Typography variant="h4">
                     <a href="https://github.com/minas8" target="_blank" rel="noreferrer" title="My GitHub">
@@ -22,7 +22,7 @@ function AboutUs(): JSX.Element {
                     </a>
                 </Typography>
 
-                <Typography variant="overline" className="TextField">Objective</Typography>
+                <Typography variant="overline" className="TextField">Summary</Typography>
                 <Typography variant="body2">
                     I have about 10 years of experience as a software engineer (post career change), specializing in C# and familiar with both
                     client &amp; server side.<br /> I took part in many projects, which required working with various interfaces &amp; team

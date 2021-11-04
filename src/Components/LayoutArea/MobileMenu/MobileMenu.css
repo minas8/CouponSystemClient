@@ -1,0 +1,61 @@
+.MobileMenu {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  text-align: left;
+}
+
+.MobileMenu > .hamburger {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  cursor: pointer;
+}
+
+.MobileMenu .close-menu {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  cursor: pointer;
+}
+
+.MobileMenu > .menu-dark-bg {
+  height: 100vh;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.75);
+}
+.MobileMenu .fade-in {
+  opacity: 1;
+  transition: all 0.3s ease-in;
+}
+.MobileMenu .fade-out {
+  background-color: rgba(0, 0, 0, 0);
+  opacity: 0;
+  transition: all 0.3s ease-in;
+  visibility: hidden;
+}
+
+.MobileMenu .mobile-menu {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  width: calc(75% - 10px);
+  text-align: left;
+  padding: 1.5rem 1rem 0.5rem 0.5rem;
+  background-color: #ffd1c8;
+  transform: translateX(0%);
+  transition: transform 0.3s ease-in;
+  z-index: 2;
+  box-shadow: 0 0 40px 11px #424242;
+}
+.MobileMenu .hidden {
+  right: 600px;
+  transform: translateX(-120%);
+  transition: transform 0.3s ease-in;
+}
